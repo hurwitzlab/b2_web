@@ -1,0 +1,6 @@
+{
+    "mongo": {
+        "url": "mongodb://localhost:27017/b2_project"
+    },
+    "serverPort": 3007
+}
