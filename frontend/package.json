@@ -1,0 +1,27 @@
+{
+  "name": "b2",
+  "version": "0.1.0",
+  "description": "B2 Project",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "elm-live src/Main.elm -- --output elm.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hurwitzlab/b2_web.git"
+  },
+  "author": "Ken Youens-Clark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hurwitzlab/b2_web/issues"
+  },
+  "homepage": "https://github.com/hurwitzlab/b2_web#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "npm": "^6.9.0"
+  }
+}
