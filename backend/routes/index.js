@@ -20,7 +20,7 @@ function mongo() {
 
 router.get('/', function (req, res) {
   mongo().then(function (db) {
-    console.log('here');
+    console.log(db);
     db.collection('experiment').find().toArray(function (err, results) {
       if (err) {
         console.log('error with find');
