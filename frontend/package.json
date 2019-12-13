@@ -22,6 +22,6 @@
   "homepage": "https://github.com/hurwitzlab/b2_web#readme",
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "npm": "^6.9.0"
+    "npm": "^6.13.4"
   }
 }
